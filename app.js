@@ -6,10 +6,11 @@ button.addEventListener('click', (e)=> {
     e.preventDefault();
 
     navigator.clipboard.writeText(input.value).then(() => {
-        button.innerText = 'Copied';
+        button.innerText = 'dfgdfg';
 
         setTimeout(()=> {
             button.innerText = 'Copy';
         }, 3000)
     })
 })
+
